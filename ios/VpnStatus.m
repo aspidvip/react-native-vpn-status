@@ -14,8 +14,6 @@ RCT_EXPORT_METHOD(detectVPN:(RCTPromiseResolveBlock)resolve
     NSDictionary *nsDict = (__bridge NSDictionary*)cfDict;
     NSDictionary *keys = [nsDict valueForKey:@"__SCOPED__"];
     BOOL isConnected = NO;
-    // NSLog(@"keys==>%@", keys);
-
 
     for (id key in keys) {
         // NSLog(@"keys==>%@", keys);
