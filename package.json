@@ -1,6 +1,6 @@
 {
   "name": "react-native-vpn-status",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Get current VPN status",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
